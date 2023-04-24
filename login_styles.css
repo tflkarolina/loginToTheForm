@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(166deg, rgba(195,176,190,1) 36%, rgba(169,154,189,1) 56%, rgba(112,108,187,1) 97%);   
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+}
+
+.header p{
+    display: flex;
+    justify-content: center;
+    color:rgb(94, 89, 89)
+    
+}
+
+label{
+    color:rgb(109, 101, 101)
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    box-shadow: rgba(138, 91, 199, 0.589) 3px 4px 5px;
+    border: none
+}
+
+::placeholder{
+    display: flex;
+    text-align: center;
+    color: rgba(138, 91, 199, 0.589);
+}
+
+.login_button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 20px;
+    width: 80%;
+    height: 65px;
+    background-color: rgb(185, 169, 224);
+    box-shadow: rgba(82, 82, 82, 0.589) 10px 7px 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    border:none
+    
+}
+
+button:hover {
+    background-color: rgb(139, 129, 139);
+}
+
+.container{
+    background-color: rgb(201, 193, 204);
+    padding: 16px;
+    border-radius: 20px; 
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(104, 103, 104, 0.589) 5px 5px 10px;
+}
